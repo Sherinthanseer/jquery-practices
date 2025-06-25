@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>Slider</title>
+  <style>
+    #btn{
+        color: white;
+        background-color: rgb(52, 52, 238);
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+        border-color:  rgb(52, 52, 238);
+        margin-top: 40px;
+        display: flex;
+        padding: 5px;
+        justify-content: center;
+    }
+    #para{
+        font-size: xx-large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        word-spacing: 5px;
+    }
+  </style>
+</head>
+<body>
+    
+    <center>
+    <button id="btn">show/hide</button>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nulla rem, eveniet impedit ratione modi molestias ut laboriosam quia ipsam pariatur vitae et quas labore minus, delectus quos cumque vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa natus ipsum harum iusto minus voluptas laborum, repellendus illum magnam facere, mollitia necessitatibus, quae suscipit doloremque expedita ullam. Libero, et.</p>
+    </center>
+    <script>
+        $(document).ready(function(){
+            $('#btn').click(function(){
+                $('#para').toggle();
+            });
+        });
+
+    </script>
+    </body>
+</html>
