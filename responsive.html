@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <style>
+    :root {
+      --bg: #FAF4EF;
+      --text: #1C1C1C;
+      --primary: #D9777A;
+      --accent: #EDE9D5;
+      --muted: #7C6F64;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    section {
+      background: var(--accent);
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    section h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    section p {
+      color: var(--muted);
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+    }
+
+    button {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.5rem 1.2rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 1rem;
+    }
+
+    footer {
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    
+    @media (min-width: 600px) {
+      section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        max-width: 900px;
+        margin: auto;
+        padding: 3rem;
+      }
+
+      section  div {
+        width: 48%;
+      }
+
+      img {
+        margin-top: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Lorem Ipsum Dolor</h1>
+    <p>Minimal design. Responsive layout. Your theme.</p>
+  </header>
+
+  <section>
+    <div>
+      <h2>Consectetur Elit</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id velit a velit ullamcorper malesuada. Sed nec facilisis neque.</p>
+      <button>Learn More</button>
+    </div>
+    <div>
+      <img src="https://img.freepik.com/free-photo/woman-beach-with-her-baby-enjoying-sunset_52683-144131.jpg?size=626&ext=jpg" >
+    </div>
+  </section>
+
+  <footer>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non dolorem cum quasi sapiente! Reiciendis minima maxime suscipit non sit eaque sunt itaque ab unde? Voluptate esse minima atque iure culpa!
+    
+  </footer>
+
+</body>
+</html>
